@@ -4,11 +4,18 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "$npm_execpath run build; push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "axios": "0.18.0",
+    "query-ast": "1.0.1",
+    "sass.js": "0.10.10",
+    "scss-parser": "1.0.0",
+    "scss-to-json": "2.0.0",
+    "scssfmt": "1.0.6",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
@@ -20,10 +27,10 @@
     "@vue/cli-plugin-typescript": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "node-sass": "^4.9.0",
+    "push-dir": "0.4.1",
     "sass-loader": "^7.0.1",
     "typescript": "^3.0.0",
-    "vue-template-compiler": "^2.5.17",
-    "push-dir": "0.4.1"
+    "vue-template-compiler": "^2.5.17"
   },
   "postcss": {
     "plugins": {

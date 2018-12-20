@@ -1,0 +1,9 @@
+{
+  "overrides": [{
+    "files": "*",
+    "options": {
+      "singleQuote": true,
+      "trailingComma": "all"
+    }
+  }]
+}
